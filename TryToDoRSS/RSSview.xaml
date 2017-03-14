@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="TryToDoRSS.RSSview"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TryToDoRSS"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="10*"/>
+        </Grid.RowDefinitions>
+        <Button Name="FeedsButton" Content="לקבלת ההזנות" Click="FeedsButton_Click" />
+        <TextBox Name="LinkBox" Grid.Row="1" FontFamily="Miriam" FontSize="30" Foreground="GreenYellow" />
+        <ListBox Name="FeedsListBox" Grid.Row="2" ItemsSource="{Binding}" />
+    </Grid>
+</Page>
