@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -31,7 +32,16 @@ namespace TryToDoRSS
         {
             string searchtext = SearchText.Text;
             BL.MyBL bl = new BL.MyBL();
-            ResultText.Text =  await BL.MyBL.Search(searchtext);
+            try
+            {
+                string result = await BL.MyBL.Search(searchtext);
+                ResultText.Text = result;
+            }
+            catch(Exception ex)
+            {
+                var md = new MessageDialog(ex.Message);
+                await md.ShowAsync();
+            }
         }
 
         private void MainPageButton_Click(object sender, RoutedEventArgs e)

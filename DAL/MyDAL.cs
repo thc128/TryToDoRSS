@@ -51,8 +51,9 @@ namespace DAL
         public static async Task<string> GetArticle(string searchstring)
         {
             var child = firebaseClient.Child("myfeeds");           
-            var m = await child.OrderBy("Title").StartAt(searchstring).OnceAsync<Article>();
-            return m.ToString();
+            IReadOnlyCollection<FirebaseObject<Article>> m = await child.OrderBy("Title").OnceAsync<Article>();
+            string result = m.ToList<FirebaseObject<Article>>().FirstOrDefault().Object.ToString() ?? "why not ?";
+            return result;
         }
     }
 }

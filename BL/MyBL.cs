@@ -72,7 +72,8 @@ namespace BL
 
         public static async Task<string> Search(string searchstring)
         {
-            return await DAL.MyDAL.GetArticle(searchstring);
+            string result= await DAL.MyDAL.GetArticle(searchstring);
+            return result;
         }
 
         
