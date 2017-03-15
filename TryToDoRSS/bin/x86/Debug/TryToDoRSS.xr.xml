@@ -36,5 +36,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="TryToDoRSS.RSSview" />
+    <RootType FullName="TryToDoRSS.SearchView" />
   </Roots.RootTypes>
 </Roots>

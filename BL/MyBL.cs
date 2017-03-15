@@ -70,7 +70,10 @@ namespace BL
             return articles;
         }
 
-        
+        public static async Task<string> Search(string searchstring)
+        {
+            return await DAL.MyDAL.GetArticle(searchstring);
+        }
 
         
 }

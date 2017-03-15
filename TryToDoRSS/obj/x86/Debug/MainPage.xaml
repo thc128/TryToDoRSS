@@ -9,10 +9,12 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
-            <RowDefinition />
-            <RowDefinition  Height="50"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <Button x:ConnectionId='1' Name="newwindow" Content="לדף החדש" Grid.Row="1"                         />
+        <Button x:ConnectionId='2' Name="SearchPageButton" Content="לדף החיפוש" Grid.Row="2"                               />
     </Grid>
 </Page>
 

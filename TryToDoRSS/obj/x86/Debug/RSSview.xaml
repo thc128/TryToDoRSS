@@ -11,11 +11,13 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
             <RowDefinition Height="10*"/>
         </Grid.RowDefinitions>
-        <Button x:ConnectionId='1' Name="FeedsButton" Content="לקבלת ההזנות"                           />
-        <TextBox x:ConnectionId='2' Name="LinkBox" Grid.Row="1" FontFamily="Miriam" FontSize="30" Foreground="GreenYellow" />
-        <ListBox x:ConnectionId='3' Name="FeedsListBox" Grid.Row="2" ItemsSource="{Binding}" />
+        <Button x:ConnectionId='1' Name="MainPageButton" Grid.Row="0" Content="לדף הראשי"                             />
+        <Button x:ConnectionId='2' Name="FeedsButton" Grid.Row="1" Content="לקבלת ההזנות"                           />
+        <TextBox x:ConnectionId='3' Name="LinkBox" Grid.Row="2" FontFamily="Miriam" FontSize="30" Foreground="GreenYellow" />
+        <ListBox x:ConnectionId='4' Name="FeedsListBox" Grid.Row="3" ItemsSource="{Binding}" />
     </Grid>
 </Page>
 

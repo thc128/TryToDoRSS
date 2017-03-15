@@ -132,17 +132,19 @@ namespace TryToDoRSS.TryToDoRSS_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[4];
+            _typeNameTable = new string[5];
             _typeNameTable[0] = "TryToDoRSS.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "TryToDoRSS.RSSview";
+            _typeNameTable[4] = "TryToDoRSS.SearchView";
 
-            _typeTable = new global::System.Type[4];
+            _typeTable = new global::System.Type[5];
             _typeTable[0] = typeof(global::TryToDoRSS.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::TryToDoRSS.RSSview);
+            _typeTable[4] = typeof(global::TryToDoRSS.SearchView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -179,6 +181,7 @@ namespace TryToDoRSS.TryToDoRSS_XamlTypeInfo
 
         private object Activate_0_MainPage() { return new global::TryToDoRSS.MainPage(); }
         private object Activate_3_RSSview() { return new global::TryToDoRSS.RSSview(); }
+        private object Activate_4_SearchView() { return new global::TryToDoRSS.SearchView(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -208,6 +211,13 @@ namespace TryToDoRSS.TryToDoRSS_XamlTypeInfo
             case 3:   //  TryToDoRSS.RSSview
                 userType = new global::TryToDoRSS.TryToDoRSS_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_3_RSSview;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  TryToDoRSS.SearchView
+                userType = new global::TryToDoRSS.TryToDoRSS_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_4_SearchView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

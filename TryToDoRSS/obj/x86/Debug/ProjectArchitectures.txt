@@ -1,5 +1,5 @@
-C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\BE\BE.csproj;x86
-C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\BE\BE.csproj;x86
-C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\BL\BL.csproj;x86
-C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\DAL\DAL.csproj;x86
-C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\TryToDoRSS\TryToDoRSS.csproj;x86
+C:\Users\asaf\Documents\GitHub\TryToDoRSS\BE\BE.csproj;x86
+C:\Users\asaf\Documents\GitHub\TryToDoRSS\BE\BE.csproj;x86
+C:\Users\asaf\Documents\GitHub\TryToDoRSS\BL\BL.csproj;x86
+C:\Users\asaf\Documents\GitHub\TryToDoRSS\DAL\DAL.csproj;x86
+C:\Users\asaf\Documents\GitHub\TryToDoRSS\TryToDoRSS\TryToDoRSS.csproj;x86

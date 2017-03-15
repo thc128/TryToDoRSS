@@ -38,5 +38,10 @@ namespace TryToDoRSS
             articles = await bl.GetFeed();
             FeedsListBox.DataContext = articles;
         }
+
+        private void MainPageButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
     }
 }

@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>db4507ed-d610-40c0-88c3-27614125ff92</PackageIdentityName>
     <PackageIdentityPublisher>CN=asaf</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\TryToDoRSS\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\asaf\Documents\GitHub\TryToDoRSS\TryToDoRSS\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\TryToDoRSS\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\asaf\Documents\GitHub\TryToDoRSS\TryToDoRSS\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-14T09:18:00.978</Modified>
+      <Modified>2017-03-15T15:10:35.545</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\TryToDoRSS\bin\x86\Debug\TryToDoRSS.exe">
+    <AppxPackagedFile Include="C:\Users\asaf\Documents\GitHub\TryToDoRSS\TryToDoRSS\bin\x86\Debug\TryToDoRSS.exe">
       <PackagePath>entrypoint\TryToDoRSS.exe</PackagePath>
-      <Modified>2017-03-14T09:17:47.375</Modified>
+      <Modified>2017-03-15T15:10:25.495</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\asaf\.nuget\packages\FirebaseDatabase.net\2.0.2\lib\portable45-net45+win8+wpa81\Firebase.Database.dll">
       <PackagePath>Firebase.Database.dll</PackagePath>
@@ -472,72 +472,72 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T20:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\BE\bin\x86\Debug\BE.dll">
+    <AppxPackagedFile Include="C:\Users\asaf\Documents\GitHub\TryToDoRSS\BE\bin\x86\Debug\BE.dll">
       <PackagePath>BE.dll</PackagePath>
       <Modified>2017-03-14T08:39:11.322</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\BL\bin\x86\Debug\BL.dll">
+    <AppxPackagedFile Include="C:\Users\asaf\Documents\GitHub\TryToDoRSS\BL\bin\x86\Debug\BL.dll">
       <PackagePath>BL.dll</PackagePath>
-      <Modified>2017-03-14T09:17:36.784</Modified>
+      <Modified>2017-03-15T15:03:25.987</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\BL\bin\x86\Debug\DAL.dll">
+    <AppxPackagedFile Include="C:\Users\asaf\Documents\GitHub\TryToDoRSS\BL\bin\x86\Debug\DAL.dll">
       <PackagePath>DAL.dll</PackagePath>
-      <Modified>2017-03-14T09:17:32.427</Modified>
+      <Modified>2017-03-15T15:03:22.982</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\TryToDoRSS\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\asaf\Documents\GitHub\TryToDoRSS\TryToDoRSS\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-02-21T12:13:28.043</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\TryToDoRSS\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\asaf\Documents\GitHub\TryToDoRSS\TryToDoRSS\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\TryToDoRSS\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\asaf\Documents\GitHub\TryToDoRSS\TryToDoRSS\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\TryToDoRSS\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\asaf\Documents\GitHub\TryToDoRSS\TryToDoRSS\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\TryToDoRSS\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\asaf\Documents\GitHub\TryToDoRSS\TryToDoRSS\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\TryToDoRSS\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\asaf\Documents\GitHub\TryToDoRSS\TryToDoRSS\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\TryToDoRSS\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\asaf\Documents\GitHub\TryToDoRSS\TryToDoRSS\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\TryToDoRSS\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\asaf\Documents\GitHub\TryToDoRSS\TryToDoRSS\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\TryToDoRSS\bin\x86\Debug\TryToDoRSS.xr.xml">
+    <AppxPackagedFile Include="C:\Users\asaf\Documents\GitHub\TryToDoRSS\TryToDoRSS\bin\x86\Debug\TryToDoRSS.xr.xml">
       <PackagePath>TryToDoRSS.xr.xml</PackagePath>
-      <Modified>2017-03-13T10:33:22.952</Modified>
+      <Modified>2017-03-15T10:18:38.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-01-20T08:54:27.114</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\TryToDoRSS\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\asaf\Documents\GitHub\TryToDoRSS\TryToDoRSS\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-14T09:17:58.751</Modified>
+      <Modified>2017-03-15T15:10:33.696</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\asaf\Documents\Visual Studio 2015\Projects\TryToDoRSS\TryToDoRSS\bin\x86\Debug\Core\TryToDoRSS.exe">
+    <AppxPackagedFile Include="C:\Users\asaf\Documents\GitHub\TryToDoRSS\TryToDoRSS\bin\x86\Debug\Core\TryToDoRSS.exe">
       <PackagePath>TryToDoRSS.exe</PackagePath>
-      <Modified>2017-03-14T09:18:00.919</Modified>
+      <Modified>2017-03-15T15:10:35.532</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

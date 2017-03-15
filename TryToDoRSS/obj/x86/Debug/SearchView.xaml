@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="TryToDoRSS.RSSview"
+    x:Class="TryToDoRSS.SearchView"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:TryToDoRSS"
@@ -12,11 +12,12 @@
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
-            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
-        <Button Name="MainPageButton" Grid.Row="0" Content="לדף הראשי" Click="MainPageButton_Click"/>
-        <Button Name="FeedsButton" Grid.Row="1" Content="לקבלת ההזנות" Click="FeedsButton_Click" />
-        <TextBox Name="LinkBox" Grid.Row="2" FontFamily="Miriam" FontSize="30" Foreground="GreenYellow" />
-        <ListBox Name="FeedsListBox" Grid.Row="3" ItemsSource="{Binding}" />
+        <Button x:ConnectionId='1' Name="MainPageButton" Grid.Row="0" Content="לדף הראשי"                             />
+        <Button x:ConnectionId='2' Name="SearchButton" Grid.Row="1" Content="לחיפוש"                            />
+        <TextBox x:ConnectionId='3' Name="SearchText" Grid.Row="2"/>
+        <TextBox x:ConnectionId='4' Name="ResultText" Grid.Row="3"/>
     </Grid>
 </Page>
+
